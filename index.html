@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket App by Sudip</title>
+    <!-- ======= CUSTOM CSS ======= -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <section id="form">
+        <h2>Book Your Ticket With Sudip</h2>
+        <form action="">
+            <div>
+                <label for="">Current Station:</label>
+                <select name="" id="fromStation">
+                    <option disabled value="">Select your current station</option>
+                </select>
+            </div>
+            <h4>TO</h4>
+            <div>
+                <label for="">Destination Station:</label>
+                <select name="" id="toStation">
+                    <option disabled value="">Select your destination station</option>
+                </select>
+            </div>
+            <label for="adult">
+                Number of Adults:
+                <input id="adult" type="number" min="1" placeholder="Enter number of adult">
+            </label>
+            <label for="child">
+                Number of Child:
+                <input id="child" type="number" min="1" placeholder="Enter number of child">
+            </label>
+            <div>
+                <input id="return" type="checkbox">
+                <label for="return">Return</label>
+            </div>
+            <button id="downloadImg">DONE</button>
+        </form>
+    </section>
+    <section id="ticket">
+        <figure id="ticketDiv">
+            <div class="main">
+                <div class="header">
+                    <h3>HAPPY JOURNEY</h3>
+                    <h3>শুভ যাত্রা</h3>
+                    <img src="./assets/images/image.png" crossorigin="anonymous" alt="" width="40">
+                    <h3>शुभ यात्रा</h3>
+                    <h3>HAPPY JOURNEY</h3>
+                </div>
+                <div class="body">
+                    <article>
+                        <ul>
+                            <li>
+                                <h3>Rs. <span class="price"></span></h3>
+                                <h3 class="return">RETURN</h3>
+                            </li>
+                            <li>
+                                <h3>UTS NO: <span class="uts"></span></h3>
+                                <h3 class="stationCode"></h3>
+                            </li>
+                            <li>
+                                <h3 class="fromStation"></h3> TO <h3 class="toStation"></h3>
+                            </li>
+                            <li>
+                                <h3>AD:<span class="ad">0</span></h3>
+                                <h3>CH:<span class="ch">0</span></h3>
+                            </li>
+                            <li>
+                                <h3><span class="distance">0</span></h3>
+                            </li>
+                            <li>
+                                <p>Journey should commence within 1 hour(s)</p>
+                            </li>
+                            <li>
+                                <h3>DATE:<span class="currentDate"></span></h3>
+                                <h3>TIME:<span class="currentTime"></span></h3>
+                            </li>
+                            <div class="return">
+                                <li><b>Valid</b></li>
+                                <li>
+                                    <h3>DATE:<span class="validDate"></span></h3>
+                                    <h3>TIME:<span class="validTime"></span></h3>
+                                </li>
+                            </div>
+                        </ul>
+                    </article>
+                    <aside>
+                        <!-- <img src="./assets/images/image.png" alt=""> -->
+                    </aside>
+                </div>
+            </div>
+        </figure>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+    <script type="module" src="./assets/js/ticket.js"></script>
+    <script type="module" src="./assets/js/script.js"></script>
+</body>
+
+</html>

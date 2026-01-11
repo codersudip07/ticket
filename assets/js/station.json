@@ -1,0 +1,136 @@
+{
+    "route": "Howrah Jn to Goghat",
+    "total_distance_km": 91,
+    "stations": [
+        {
+            "name": "Howrah Junction",
+            "code": "HWH",
+            "distance_km": 0
+        },
+        {
+            "name": "Liluah",
+            "code": "LLH",
+            "distance_km": 5
+        },
+        {
+            "name": "Belur",
+            "code": "BEQ",
+            "distance_km": 7
+        },
+        {
+            "name": "Bally",
+            "code": "BLY",
+            "distance_km": 9
+        },
+        {
+            "name": "Uttarpara",
+            "code": "UPA",
+            "distance_km": 10
+        },
+        {
+            "name": "Hind Motor",
+            "code": "HMZ",
+            "distance_km": 12
+        },
+        {
+            "name": "Konnagar",
+            "code": "KOG",
+            "distance_km": 14
+        },
+        {
+            "name": "Rishra",
+            "code": "RIS",
+            "distance_km": 16
+        },
+        {
+            "name": "Serampore",
+            "code": "SRP",
+            "distance_km": 20
+        },
+        {
+            "name": "Seoraphuli Junction",
+            "code": "SHE",
+            "distance_km": 22
+        },
+        {
+            "name": "Diara",
+            "code": "DEA",
+            "distance_km": 28
+        },
+        {
+            "name": "Nasibpur",
+            "code": "NSF",
+            "distance_km": 30
+        },
+        {
+            "name": "Singur",
+            "code": "SIU",
+            "distance_km": 33
+        },
+        {
+            "name": "Kamarkundu Lower",
+            "code": "KQLS",
+            "distance_km": 36
+        },
+        {
+            "name": "Nalikul",
+            "code": "NKL",
+            "distance_km": 40
+        },
+        {
+            "name": "Maliya Halt",
+            "code": "MLYA",
+            "distance_km": 43
+        },
+        {
+            "name": "Haripal",
+            "code": "HPL",
+            "distance_km": 45
+        },
+        {
+            "name": "Kaikala",
+            "code": "KKAE",
+            "distance_km": 48
+        },
+        {
+            "name": "Bahir Khanda",
+            "code": "BAHW",
+            "distance_km": 51
+        },
+        {
+            "name": "Loknath",
+            "code": "LOK",
+            "distance_km": 55
+        },
+        {
+            "name": "Tarakeswar",
+            "code": "TAK",
+            "distance_km": 57
+        },
+        {
+            "name": "Talpur Halt",
+            "code": "TLPH",
+            "distance_km": 62
+        },
+        {
+            "name": "Takipur Halt",
+            "code": "TKPH",
+            "distance_km": 67
+        },
+        {
+            "name": "Mayapur",
+            "code": "MAYP",
+            "distance_km": 73
+        },
+        {
+            "name": "Arambagh (P C Sen)",
+            "code": "AMBG",
+            "distance_km": 82
+        },
+        {
+            "name": "Goghat",
+            "code": "GOGT",
+            "distance_km": 91
+        }
+    ]
+}
